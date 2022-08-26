@@ -1,0 +1,53 @@
+.Top-Nav-Bar-Header{
+    font-weight: 500;
+    margin-left: 175px;
+    margin-top: 32px;
+    
+    width: 1200px;
+    height: 31px;
+    display: flex;
+    gap: 550px;
+    flex-direction: row;
+    background: #FFFFFF;
+}
+#link{
+    text-decoration: none;
+    color: rgb(14, 13, 13);
+}
+#link1{
+    text-align: center;
+    width: 99.12px;
+    height: 33px;
+    background: #CCE6F9;
+    border-radius: 20px;
+    text-decoration: none;
+    color: rgb(14, 13, 13);
+}
+.left-top-nav{
+    
+    display: flex;
+    flex-direction: row;
+   
+   
+}
+#logo{
+    margin-top: -10px;
+    font-size: 40px;
+
+}
+.right-top-nav{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+.right-top-nav .register{
+position: absolute;
+width: 99.12px;
+height: 33px;
+text-align: center;                    
+left: 1100px;
+top: 22px;
+background: #CCE6F9;
+border-radius: 20px;
+
+}
