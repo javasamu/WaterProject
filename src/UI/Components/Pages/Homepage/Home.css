@@ -15,7 +15,7 @@
     margin-top: 30px;
     width: 150px;
     height: 80px;
-    color: white;
+    color: rgb(136, 180, 196);
     font-size: 20px;
     background-color: black;
     border-radius: 8px; 
@@ -43,8 +43,29 @@
     margin-left: 5px;
     flex-direction: row; 
     border-radius: 4px;
-    gap: 100px;
+    gap: 16%;
     background: #F0F4F7;
+ }
+ .battons{
+    border-radius: 10px;
+    background: #CCE6F9;
+    width: 150px;
+    height: 50px;
+    margin-left: 40%;
+ }
+ #pica{
+    width: 20px;
+    height: 10px;
+    margin-left: 5px;
+    margin-top: 16px;
+ }
+ .buton{
+font-size: 25px;
+color: black;
+font-family: bold;
+margin-left: 28px;
+text-decoration: none;
+ height: 40px;
  }
  .tap2{
     margin-left: 30px;
@@ -70,7 +91,7 @@ display: flex;
 flex-direction: column;
 font-size: 24px;
 padding-top: 20px;
-width: 290px;
+width: 20%;
 height: 400px;
 text-align: center;
 margin-left: 89px;
