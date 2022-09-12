@@ -1,0 +1,30 @@
+.image-green{
+    background: url(../Images/green.png);
+    width: 100vw;
+    height: auto;
+}
+#green-para{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 60%;
+    padding-bottom: 70px;
+    font-family: poppins;
+}
+.text-photos{
+    gap: 15%;
+    margin-left: 30px;
+    padding: 60px;
+    display: flex;
+    flex-direction: row;
+}
+.text-p-text{
+    font-size: 22px;
+    padding-left: 40px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+#picture-impact{
+    width: 40%;
+    height: 40%;
+}

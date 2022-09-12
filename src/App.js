@@ -7,6 +7,9 @@ import Home from './UI/Components/Pages/Home';
 import About from './UI/Components/Pages/About/About';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Registration from './UI/Components/Pages/Registration';
+import Dashboard from './UI/Components/Dashboard/Dashboard';
+import Stock from './UI/Components/Stock/Stock';
+import Impact from './UI/Components/Impact/Impact';
 
 
 function App() {
@@ -16,10 +19,13 @@ function App() {
       <Routes>
         <Route path='/' element={<Home/>} />
         <Route path='/about' element={<About/>} />
+        <Route path='/stock' element={<Stock/>} />
         <Route path='/login' element={<Login/>} />
         <Route path='/request' element={<Request/>} />
         <Route path='/register' element={<Registration/>} />
-
+        <Route path='/dashboard' element={<Dashboard/>} />
+        <Route path='/impact' element={<Impact/>} />
+        <Route path='/home' element={<Home/>} />
       </Routes>
       </Router>
       

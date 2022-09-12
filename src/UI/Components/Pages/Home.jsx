@@ -20,17 +20,14 @@ function Home() {
      <HeaderNavbar/>  
      <div className="middle-side">
         <h1 id='sentence'>Explore Our influence</h1>
-        <button id='button'>Explore</button>
+        <Link to="/impact" id='button-explore'>Explore</Link>
      </div>
      <div className='midle-text'>
         <div className='midle-text1'>
             <h1 className='header'>Who we are</h1>
-            <p className='paragraph'>Cras tortor a tincidunt massa, ullamcorper. 
-            Sed egestas<br/> tristique scelerisque ut ipsum. Congue nunc, ac 
-            dictum<br/> etiam scelerisque. Non montes, ipsum, posuere lectus <br/>
-            tincidunt ac amet urna ipsum. Nulla lectus lectus 
-            lorem <br/>sagittis. Mattis amet, tincidunt magna mattis auctor vel. 
-            <br/>Volutpat enim.</p>
+            <p className='paragraph'>E-water for All   provide decision-makers 
+            with accurate information.<br/> We bring people and organizations together. We campaign for more <br/>and better-targeted investment. 
+            And we empower communities so<br/> that the Government hears their voices</p>
 
         </div>
         <img className='tap2'src={Tap1}  alt=""/>

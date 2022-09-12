@@ -17,7 +17,6 @@ function HeaderNavbar () {
         <Link id='link' to='/login'> Login</Link>
         <Link id='link1' to='/register'> Register</Link>
         </div>
-
     </div>
   )
 }

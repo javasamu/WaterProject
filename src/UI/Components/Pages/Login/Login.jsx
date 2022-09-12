@@ -27,7 +27,7 @@ function Login() {
         </div>
         <div className='button'>
         <Link to="/register" id='buton'>Register</Link> 
-        <button id='button1'>Login</button>
+        <Link to='/dashboard' id='button11'>Login</Link>
         </div>
         
         </div>

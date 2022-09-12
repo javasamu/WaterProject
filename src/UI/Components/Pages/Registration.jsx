@@ -33,13 +33,13 @@ function Registration() {
 
                 <div className='filled-form'>
                 <label id='label'>Password</label>
-                <input type='text' className='Name' placeholder='........' required/>
+                <input type='password' className='Name' placeholder='Password' required/>
                 </div>
 
             </form>
             <div className='button-register-login'> 
               <button id="buttons1" > Login</button>
-              <button id='buttons'>Register</button>
+              <Link to="/login" id='buttons'>Register</Link>
 
             </div>
             <div className='warm-up'>

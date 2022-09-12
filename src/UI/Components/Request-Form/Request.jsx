@@ -5,6 +5,7 @@ import Whatsapp from '../Images/whatsapp.png';
 import Instagram from '../Images/instagram.png'
 import Linkedin from '../Images/linkedin.png';
 import HeaderNavbar from '../Top-Nav-Bar/Top-Nav-bar'
+import {Link} from 'react-router-dom';
 
 function Request() {
   return (
@@ -33,7 +34,7 @@ function Request() {
 
         <div className='button'>
           <button id='button1'>Cancel</button>
-          <button id='button2'>Submit</button>
+          <Link to="/home" id='button12'>Submit</Link>
         </div>
       </div>
       <div className='footer1'>

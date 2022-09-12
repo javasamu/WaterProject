@@ -54,6 +54,9 @@
 }
 #buttons{
     border-radius: 10px;
+    text-decoration: none;
+    padding-left: 30px;
+    padding-top: 10px;
     margin-bottom: 10px;
     width: 100px;
     height: 40px;
