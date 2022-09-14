@@ -33,7 +33,7 @@ function Home() {
         <img className='tap2'src={Tap1}  alt=""/>
 
      </div>
-     <div className='midle-text-2'>
+     <div className='midle-text-2'>2
      <img className='tap2' src={Tap2}  alt=""/>
      <div className='midle-text-3'>
             <p className='paragraph2'>Cras tortor a tincidunt massa, ullamcorper. 

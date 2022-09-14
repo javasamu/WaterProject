@@ -1,10 +1,13 @@
 .main-stock{
     width: 100vw;
     height: auto;
+    min-width: fit-content;
+
     
 }
 .clip-background{
     width: 700px;
+    min-width: fit-content;
     position: absolute;
     height: 500px;
     transform: translate(-70px, -27px);
@@ -103,7 +106,6 @@
 }
 
 .box-1{
-
 width: 200px;
 height: 200px;
 background: #FFFFFF;
@@ -122,5 +124,7 @@ border-radius: 20px;
 
 }
 .footer1{
-    margin-top: 80px;
+    justify-content: space-between;
+    padding: 40px;
+    
 }

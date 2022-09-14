@@ -46,10 +46,11 @@
     display: flex;
     padding-bottom: -30px;
     flex-direction: row;
-    gap: 30%;
+   
 }
 #button1{
-        margin-left: 14%;
+    border-color: white;
+        margin-left: 13%;
        margin-bottom: 150px;
         margin-top: 30px;
         padding-right: 10px;
@@ -64,6 +65,7 @@
     #button12 {
         margin-bottom: 150px;
         margin-top: 30px;
+        margin-left: 23%;
         padding-left: 45px;
         text-decoration: none;
         padding-top: 15px;

@@ -5,10 +5,14 @@
     height: 100%;
     padding-bottom: 12%;
     text-align: center;
+    background-size: cover;
+    background-position: center;
     background-size: 100%;
+    
 }
 #sentence{
    padding-top: 250px;
+   min-width: fit-content;
    font-size: 60px;
 }
 #button-explore{
@@ -27,7 +31,8 @@
    margin-left: 30px;
    flex-direction: row; 
    padding: 30px;
-   gap: 170px;
+   min-width: fit-content;
+   justify-content: space-between;
 }
 .paragraph{
     width: 120%;
@@ -36,16 +41,16 @@
    
 }
 .header{
+    min-width: fit-content;
     margin-top: -15px;
     font-size: 70px;
     color: #36A7FA;
 }
 .midle-text-2{
     display: flex;
-    margin-left: 5px;
     flex-direction: row; 
     border-radius: 4px;
-    gap: 16%;
+    justify-content: space-between;
     background: #F0F4F7;
  }
  .battons{
@@ -77,6 +82,7 @@ text-decoration: none;
 
  }
  .paragraph2{
+    justify-content: space-evenly;
     width: 100%;
     padding-top: 120px;
     margin-top: 10px;
@@ -115,25 +121,29 @@ height: 40%;
     height: 60%;
     }
 .partner-boxes{
+    padding: 30px;
 margin-top: 60px;
 display: flex;
 flex-direction: row;
-gap: 60px;
+justify-content: space-between;
 }
 
 .footer{
+    padding: 50px;
     display: flex;
     flex-direction: row;
-    gap: 50px;
+   justify-content: space-between;
     background: #CFE1EE; 
     margin-top: 100px;
+   
 }
 .footer-text1{
-gap: -10px;
+justify-content: space-between;
+min-width: fit-content;
 display: flex;
 flex-direction: column;
 margin-top: -10px;
-margin-left: 150px;
+
 }
 #header-footer{
     color: #36A7FA;
@@ -162,7 +172,6 @@ font-size: 24px;
     background: #A0B5C4;
 }
 #foot{
-    
     margin-left: 13%;
 }
 #foot>span{

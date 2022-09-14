@@ -6,6 +6,7 @@ import {Link} from 'react-router-dom';
 function HeaderNavbar () {
   return (
     <div className='Top-Nav-Bar-Header'>
+      
         <div className='left-top-nav'>
           <img id='logo' src={moto}/>
             <p id='logo'>E</p>
